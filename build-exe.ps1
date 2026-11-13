@@ -8,6 +8,6 @@ if ($LASTEXITCODE -ne 0) { throw 'Installation der Build-Abhaengigkeiten fehlges
 foreach ($folder in @('templates', 'static', 'assets')) {
     if (!(Test-Path $folder -PathType Container)) { throw "Ressourcenordner fehlt: $folder" }
 }
-& $python -m PyInstaller --noconfirm --clean --onefile --windowed --name WinCtrl --add-data 'templates;templates' --add-data 'static;static' --add-data 'assets;assets' --collect-submodules pystray --collect-submodules pycaw --collect-submodules comtypes winctrl_launcher.py
+& $python -m PyInstaller --noconfirm --clean --onefile --windowed --exclude-module mouseinfo --exclude-module pymsgbox --name WinCtrl --add-data 'templates;templates' --add-data 'static;static' --add-data 'assets;assets' --collect-submodules pystray --collect-submodules pycaw --collect-submodules comtypes winctrl_launcher.py
 if ($LASTEXITCODE -ne 0) { throw 'EXE-Build fehlgeschlagen.' }
 Write-Host 'Test-Build erstellt: dist\WinCtrl.exe'
