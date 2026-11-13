@@ -1,0 +1,50 @@
+# Python environments and caches
+.venv/
+.build-venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration, actions and logs
+/data/
+/logs/
+.env
+.env.*
+!.env.example
+
+# Build output - EXE will be distributed via GitHub Releases
+/build/
+/dist/
+*.spec
+*.exe
+*.msi
+
+# Local backups and update packages
+/backup_before_*/
+/exe_update_v2/
+/winctrl_update_payload/
+/windowed_update/
+/apply_exe_update.py
+/apply_exe_update_v2.py
+/apply_windowed_update.py
+/README_UPDATE*.txt
+/alle_dateien_*.txt
+/app_quellcode.txt
+/autostart_quellcode.txt
+/storage_quellcode.txt
+*.zip
+*.bak
+*.tmp
+
+# Editors and Windows
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Local update instructions and historical test output
+/README.txt
+/tests/LETZTER_TESTLAUF.txt

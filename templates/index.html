@@ -1,0 +1,8 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WinCtrl</title><link rel="icon" type="image/png" href="/static/favicon.png"><link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/feature_ui.css?v=2"></head><body><script>window.adminKey={{ admin_key|tojson }};</script><script src="/static/ui.js"></script><header><h1>Aktionen</h1><a class="button" href="/settings">Einstellungen</a></header><main><section class="card"><form class="toolbar" onsubmit="createAction(event, this)">
+<input id="newName" placeholder="Aktionsname" required>
+<input id="newTrigger" placeholder="/netflix" required>
+<input id="newTimeout" type="text" inputmode="numeric" placeholder="timeout" title="Timeout in ganzen Minuten (leer = 1 Min)" style="width:110px">
+<button type="submit" class="primary">Neue Aktion</button>
+<button type="button" onclick="document.getElementById('importFile').click()">Importieren</button>
+<input id="importFile" type="file" accept=".json" hidden>
+</form><div style="overflow:auto"><table><thead><tr><th>Aktiv</th><th>Name</th><th>Trigger</th><th>Timeout</th><th>Status</th><th>Farbkategorie</th><th>Bedienung</th></tr></thead><tbody id="actions"></tbody></table></div></section><section class="card"><h2>Zentrales Log</h2><pre id="logs"></pre></section></main><script src="/static/index.js"></script><script>window.winctrlLogoUrl="/static/logo.png";</script><script src="/static/feature_ui.js?v=2"></script></body></html>
