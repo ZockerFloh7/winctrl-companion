@@ -28,4 +28,6 @@
 | pywin32-ctypes            | 0.2.3     | BSD-3-Clause                                                   | https://github.com/enthought/pywin32-ctypes              |
 | six                       | 1.17.0    | MIT License                                                    | https://github.com/benjaminp/six                         |
 | waitress                  | 3.0.2     | Zope Public License                                            | https://github.com/Pylons/waitress                       |
-
+| Python                    | 3.13.14   | PSF-2.0                                                        | [https://github.com/python/cpython](https://github.com/python/cpython)                         |
+| OpenSSL                   | 3.x       | Apache-2.0                                                     | [https://github.com/openssl/openssl](https://github.com/openssl/openssl)                       |
+| Microsoft Visual C++ Runtime | 14.x   | Microsoft Software License Terms for Visual C++ Redistributable | [https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist](https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist) |

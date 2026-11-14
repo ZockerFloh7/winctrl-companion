@@ -250,5 +250,32 @@
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
     "Version": "3.0.2"
+  },
+  {
+    "Name": "Python",
+    "Version": "3.13.14",
+    "License": "PSF-2.0",
+    "LicenseFile": "release-licenses/Python-3.13.14/LICENSE-Python.txt",
+    "LicenseText": "See bundled license file.",
+    "NoticeFile": "UNKNOWN",
+    "NoticeText": "UNKNOWN"
+  },
+  {
+    "Name": "OpenSSL",
+    "Version": "3.x",
+    "License": "Apache-2.0",
+    "LicenseFile": "release-licenses/OpenSSL-3/LICENSE-OpenSSL.txt",
+    "LicenseText": "See bundled license file.",
+    "NoticeFile": "UNKNOWN",
+    "NoticeText": "UNKNOWN"
+  },
+  {
+    "Name": "Microsoft Visual C++ Runtime",
+    "Version": "14.x",
+    "License": "Microsoft Software License Terms for Visual C++ Redistributable",
+    "LicenseFile": "UNKNOWN",
+    "LicenseText": "See Microsoft Visual C++ Redistributable license terms.",
+    "NoticeFile": "UNKNOWN",
+    "NoticeText": "UNKNOWN"
   }
 ]

@@ -1,0 +1,33 @@
+﻿Python 3.13.14
+==============
+
+Bundled runtime components:
+python313.dll, python3.dll and Python extension modules.
+
+License:
+Python Software Foundation License Version 2
+
+License source:
+https://github.com/python/cpython/blob/3.13/LICENSE
+
+OpenSSL
+=======
+
+Bundled runtime components:
+libcrypto-3.dll and libssl-3.dll.
+
+License:
+Apache License, Version 2.0
+
+License source:
+https://github.com/openssl/openssl/blob/master/LICENSE.txt
+
+Microsoft Visual C++ Runtime
+============================
+
+Bundled runtime components:
+VCRUNTIME140.dll and VCRUNTIME140_1.dll.
+
+These files are redistributed under the Microsoft Visual Studio
+redistributable license terms. The applicable terms accompany the
+Visual Studio Redistributable installer and Microsoft documentation.
