@@ -48,3 +48,6 @@ Desktop.ini
 # Local update instructions and historical test output
 /README.txt
 /tests/LETZTER_TESTLAUF.txt
+
+# Downloaded third-party source archives and wheels for release documentation
+release-sources/

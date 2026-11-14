@@ -1,0 +1,8 @@
+﻿No unresolved missing license files.
+
+MouseInfo 0.1.3 and PyGetWindow 0.0.9 originally had no license file
+in their PyPI source distributions. License files and source information
+were added under:
+
+- release-licenses/MouseInfo-0.1.3/
+- release-licenses/PyGetWindow-0.0.9/

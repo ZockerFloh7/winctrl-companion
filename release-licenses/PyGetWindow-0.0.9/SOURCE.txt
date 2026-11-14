@@ -1,0 +1,17 @@
+﻿Component: PyGetWindow
+Installed version: 0.0.9
+License: BSD 3-Clause
+
+Source archive:
+PyGetWindow-0.0.9.tar.gz
+https://files.pythonhosted.org/packages/source/P/PyGetWindow/PyGetWindow-0.0.9.tar.gz
+
+Upstream repository:
+https://github.com/asweigart/PyGetWindow
+
+License file retrieved from upstream repository:
+https://raw.githubusercontent.com/asweigart/PyGetWindow/master/LICENSE.txt
+
+The downloaded PyGetWindow-0.0.9 source archive did not contain a
+separate license file recognized by our collection script.
+This license file was retrieved from the upstream master branch.
